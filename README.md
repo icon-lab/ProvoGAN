@@ -1,7 +1,7 @@
 # ProvoGAN
-Official Pytorch Implementation of Progressively Volumetrized Deep Generative Models for Data-Efficient Contextual Learning of MR Image Recovery (ProvoGAN) which is described in the [following](https://arxiv.org/abs/2011.13913) paper:
+Official Pytorch Implementation of Residual Vision Transformers(ResViT) which is described in the [following](https://arxiv.org/abs/2011.13913) paper:
 
-Mahmut Yurt and Muzaffer Özbey and Salman Ul Hassan Dar and Berk Tınaz and Kader Karlı Oğuz and Tolga Çukur Progressively volumetrized deep generative models for data-efficient contextual learning of MR image recovery. arXiv. 2022.
+Mahmut Yurt and Muzaffer Özbey and Salman Ul Hassan Dar and Berk Tınaz and Kader Karlı Oğuz and Tolga Çukur Progressively volumetrized deep generative models for data-efficient contextual learning of MR image recoverys. arXiv. 2022.
 
 ## Data
 The *data* directory should be organized as the following structure:
