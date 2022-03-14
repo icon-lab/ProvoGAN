@@ -25,6 +25,14 @@ def create_model(opt):
         #assert(opt.dataset_mode == 'aligned')
         from .pix2pix_model_perceptual_att import Pix2PixModel
         model = Pix2PixModel()
+    elif opt.model == 'pix2pix_perceptual_transferGAN':
+        #assert(opt.dataset_mode == 'aligned')
+        from .pix2pix_model_perceptual_transferGAN import Pix2PixModel
+        model = Pix2PixModel()
+    elif opt.model == 'pix2pix_perceptual_refineGAN':
+        #assert(opt.dataset_mode == 'aligned')
+        from .pix2pix_model_perceptual_refineGAN import Pix2PixModel
+        model = Pix2PixModel()
     elif opt.model == 'pix2pix_cnn':
         #assert(opt.dataset_mode == 'aligned')
         from .pix2pix_cnn_model import Pix2PixModel
