@@ -49,6 +49,8 @@ class BaseOptions():
         self.parser.add_argument('--input3', type=str, default='T1c', help='type of input3')
         self.parser.add_argument('--out', type=str, default='T1', help='type of output')
         self.parser.add_argument('--pat_num', type=int, default=50, help='# patients used for training')
+        self.parser.add_argument('--Rx', type=int, default=2, help='# acceleration ratio')
+        self.parser.add_argument('--data_type', type=str, default='T1', help='contrast for reconstruction')
 
         self.initialized = True
 
